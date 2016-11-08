@@ -72,8 +72,7 @@ Warning #2: If the JEDI API headers are used with a directive WIN_XP or lower
 //Infact this repo is the JEDI API svn repo which
 //contains includes\JediAPILib.inc . So there it points to.
 //If this does not work, you forgot to add \jwscl\trunk\source to your LIBRARY path.
-{$I ..\includes\jwa\JediAPILib.inc}
-
+{$I jedi.inc}
 
 
 {$IFDEF FPC}
